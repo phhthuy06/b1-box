@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Những Học Phần Chung</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset margin và padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Căn giữa trang */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    weight: 300px
+    background-color: #f5f5f5;
+}
+
+/* Hộp chứa nội dung */
+.container {
+    width: 60%;
+    max-width: 600px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+/* Phần tiêu đề (ô màu đen) */
+.header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Nội dung danh sách */
+.content {
+    padding: 20px;
+}
+
+.content ul {
+    list-style-type: square;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+/* Link trong danh sách */
+.content ul li a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+/* Hover hiệu ứng */
+.content ul li a:hover {
+    text-decoration: underline;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>NHỮNG HỌC PHẦN CHUNG</h2>
+        </div>
+        <div class="content">
+            <ul>
+                <li><a href="#">Tiếng Anh</a></li>
+                <li><a href="#">Triết học</a></li>
+                <li><a href="#">Hà Nội học</a></li>
+                <li><a href="#">Sinh viên đại học</a></li>
+                <li><a href="#">Tin học</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
